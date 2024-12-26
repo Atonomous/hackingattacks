@@ -4,6 +4,7 @@
         margin-top: 10px;
         padding-top: 20px;
     }
+
     nav ul {
         flex-direction: column;
         margin-bottom: 20px;
@@ -12,15 +13,16 @@
     main {
         margin-top: 20px;
     }
-    
+
     header img {
         width: 100%;
         height: auto;
         z-index: -1;
     }
-        .index_img{
-            font-size:12px;
-        }
+
+    .index_img {
+        font-size: 10px;
+    }
 }
 
 
@@ -51,13 +53,13 @@ header {
     }
 
     header h1 {
-
-        width:100%;
-        height:auto;
+        width: 100%;
+        height: auto;
         z-index: 1;
     }
+
 button {
-    margin:0 0;
+    margin: 0 0;
     height: 30px;
     width: contain;
     border-radius: 3px;
@@ -65,19 +67,20 @@ button {
     color: #1e1e1e;
     border: 1px solid transparent;
 }
+
     button:hover {
-         color: #e0e0e0;
-         border: 1px solid #00ff00;
-         transition: color 0.3s;
-         border-radius:3px;
-         cursor:pointer;
+        color: #e0e0e0;
+        border: 1px solid #00ff00;
+        transition: color 0.3s;
+        border-radius: 3px;
+        cursor: pointer;
     }
 
 
 
 main {
     padding: 20px;
-    background: #1e1e1e; 
+    background: #1e1e1e;
     margin: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
@@ -87,21 +90,21 @@ main {
 h2 {
     text-align: center;
     color: #00ff00;
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
 }
 
 ul {
-    list-style-type:none;
+    list-style-type: none;
     padding: 0;
 }
 
-ul li {
-     background: #2a2a2a; 
-     margin: 10px 0;
-     padding: 15px;
-     border-radius: 5px;
-     transition: background 0.3s;        
-}
+    ul li {
+        background: #2a2a2a;
+        margin: 10px 0;
+        padding: 15px;
+        border-radius: 5px;
+        transition: background 0.3s;
+    }
 
 footer {
     text-align: center;
@@ -121,13 +124,13 @@ p {
 .phtb {
     width: 100%;
     margin-top: 20px;
-    border:1px solid #ddd;
+    border: 1px solid #ddd;
 }
 
 .phtd {
-    border: 1px solid #ddd; 
-    padding: 8px; 
-    text-align: center; 
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
 }
 
 th {
@@ -136,6 +139,7 @@ th {
     padding: 8px;
     border: 1px solid #ddd;
 }
+
 .phtr {
     background: #333;
 }
@@ -162,10 +166,11 @@ th {
         height: auto;
         border-radius: 8px;
     }
-    .os-ex img:hover {
-        transition: transform 0.3s;
-        transform: scale(1.10);
-    }
+
+        .os-ex img:hover {
+            transition: transform 0.3s;
+            transform: scale(1.10);
+        }
 
     .os-ex a {
         text-decoration: none;

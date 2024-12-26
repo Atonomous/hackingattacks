@@ -1,0 +1,16 @@
+1st Time:-
+
+git init
+git add .
+git config --global user.email "mazharsmmughal@gmail.com"
+git config --global user.name "Atonomous"
+git commit -m "First commit"
+git branch -M main
+git remote add origin https://github.com/Atonomous/hackingattacks.git
+git push -u origin main
+
+
+Future:
+git add .
+git commit -m "First commit"
+git push -u origin main
