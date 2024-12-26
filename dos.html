@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Denial of Service</title>
+</head>
+<body>
+    <header>
+        <img src="./images/dos.jpeg" alt="DOS ATTACK"/>
+        <h1>Denial of Service</h1>
+        <nav class="index-list">
+            <button onclick="location.href='home.html';"><b>Home</b></button>
+            <button onclick="location.href='phishing.html';"><b>Phishing</b></button>
+            <button onclick="location.href='malware.html';"><b>Malware</b></button>
+            <button onclick="location.href='denial-of-service.html';"><b>Denial of Service</b></button>
+        </nav>
+    </header>
+    <main>
+        <h2>What is Denial of Service?</h2>
+        <p>A Denial of Service (DoS) attack aims to make a machine or network resource unavailable to its intended users by overwhelming it with excessive requests, thereby disrupting its normal operations.</p>
+
+        <h2>How Does a Denial of Service Attack Work?</h2>
+        <p>In a DoS attack, the attacker targets a system, server, or network by flooding it with excessive traffic or sending malicious requests. These actions exhaust the resources (like CPU, memory, or bandwidth), making the system unable to respond to legitimate user requests.</p>
+        <ul>
+            <li><b>Step 1:</b> The attacker identifies a target, such as a web server or an application.</li>
+            <li><b>Step 2:</b> The attacker sends a large volume of traffic or exploits vulnerabilities in the target system.</li>
+            <li><b>Step 3:</b> The target system becomes overwhelmed and crashes or becomes unavailable for legitimate users.</li>
+        </ul>
+        <img class="dos-image" src="images/attack.webp" alt="DoS Attack Illustration" style="width:100%; max-width:680px; margin-top:15px;">
+
+        <h2>Types of Denial of Service Attacks</h2>
+        <ul>
+            <li><b>Volumetric Attacks:</b> Overwhelms the bandwidth of the target with large volumes of traffic. Example: UDP floods.</li>
+            <li><b>Protocol Attacks:</b> Exploits vulnerabilities in network protocols. Example: SYN flood attacks.</li>
+            <li><b>Application Layer Attacks:</b> Targets the application layer with requests to exhaust resources. Example: HTTP GET/POST attacks.</li>
+            <li><b>Distributed Denial of Service (DDoS):</b> Involves multiple systems attacking a single target, amplifying the attack’s scale.</li>
+        </ul>
+
+        <h2>Statistics on DoS Attacks</h2>
+        <table class="phtb">
+            <tr class="phtr">
+                <th class="phtd">Year</th>
+                <th class="phtd">Reported DoS Incidents</th>
+                <th class="phtd">Percentage Increase</th>
+            </tr>
+            <tr class="phtr">
+                <td class="phtd">2020</td>
+                <td class="phtd">3.8 million</td>
+                <td class="phtd">12%</td>
+            </tr>
+            <tr class="phtr">
+                <td class="phtd">2021</td>
+                <td class="phtd">4.5 million</td>
+                <td class="phtd">18%</td>
+            </tr>
+            <tr class="phtr">
+                <td class="phtd">2022</td>
+                <td class="phtd">5.3 million</td>
+                <td class="phtd">20%</td>
+            </tr>
+            <tr class="phtr">
+                <td class="phtd">2023</td>
+                <td class="phtd">6.7 million</td>
+                <td class="phtd">26%</td>
+            </tr>
+        </table>
+        <h2>Famous DoS Attacks</h2>
+        <ul>
+            <li><b>GitHub DDoS Attack (2018):</b> One of the largest DDoS attacks in history, with traffic peaking at 1.35 Tbps.</li>
+            <li><b>Dyn Attack (2016):</b> Disrupted major services like Twitter, Netflix, and Reddit through a botnet-driven DDoS attack.</li>
+            <li><b>Amazon Web Services (2020):</b> AWS mitigated a massive DDoS attack that reached 2.3 Tbps.</li>
+        </ul>
+
+        <h2>How to Prevent Denial of Service Attacks?</h2>
+        <ul>
+            <li><b>Use Firewalls and Intrusion Detection Systems (IDS):</b> Monitor and block suspicious traffic.</li>
+            <li><b>Implement Rate Limiting:</b> Restrict the number of requests allowed from a single IP address.</li>
+            <li><b>Deploy Load Balancers:</b> Distribute traffic evenly across multiple servers to prevent overload.</li>
+            <li><b>Keep Software Updated:</b> Ensure all systems and applications are patched to fix vulnerabilities.</li>
+            <li><b>Monitor Network Traffic:</b> Use tools to detect unusual spikes in traffic or activity.</li>
+            <li><b>Partner with a DDoS Protection Service:</b> Services like Cloudflare or Akamai can mitigate large-scale attacks.</li>
+        </ul>
+
+
+    </main>
+    <footer>
+        <p>&copy; 2024 Hacking Attacks Overview</p>
+    </footer>
+</body>
+</html>
