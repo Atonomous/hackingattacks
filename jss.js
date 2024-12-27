@@ -1,17 +1,17 @@
 function navigateToHome() {
-    location.href = 'D:/PUCIT/Degree/SEM1/ICT/Website/home.html';
+    location.href="home.html";
 }
 
 function navigateToPhishing() {
-    location.href = 'D:/PUCIT/Degree/SEM1/ICT/Website/phishing.html';
+    location.href = 'phishing.html';
 }
 
 function navigateToMalware() {
-    location.href = 'D:/PUCIT/Degree/SEM1/ICT/Website/malware.html';
+    location.href = 'malware.html';
 }
 
 function navigateToDenialOfService() {
-   location.href = 'D:/PUCIT/Degree/SEM1/ICT/Website/denial-of-service.html';
+   location.href = 'denial-of-service.html';
 }
 function thanks() {
     const input = document.getElementById("email").value.trim();
