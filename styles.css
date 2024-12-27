@@ -181,3 +181,19 @@ th {
     margin: 0 0;
     color: white;
 }
+
+.footerbutton {
+    background-color: lime;
+    color: black;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer
+}
+.fdiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}

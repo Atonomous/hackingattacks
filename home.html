@@ -4,17 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
-	<title>Hacking Attacks</title>
+    <script type="text/javascript" src="jss.js"></script>    
+    <link rel="icon"  href="favicon/favicon.ico">
+    <title>Hacking Attacks</title>
 </head>
 <body>
     <header>
         <img src="images/index.jpeg" alt="Hacker Background">
         <h1>Types of Hacking Attacks</h1>
         <nav class="index-list">
-			<button onclick="location.href='home.html';"><b>Home</b></button>
-			<button onclick="location.href='phishing.html';"><b>Phishing</b></button>
-			<button onclick="location.href='malware.html';"><b>Malware</b></button>
-			<button onclick="location.href='denial-of-service.html';"><b>Denial of Service</b></button>
+            <button onclick="navigateToHome();"><b>Home</b></button>
+            <button onclick="navigateToPhishing();"><b>Phishing</b></button>
+            <button onclick="navigateToMalware();"><b>Malware</b></button>
+            <button onclick="navigateToDenialOfService();"><b>Denial of Service</b></button>
         </nav>
 
     </header>
@@ -99,7 +101,25 @@
     </main>
 
     <footer>
-        <p>&copy; 2023 Hacking Attacks Overview. All rights reserved.</p>
+        <div class="fdiv">
+            <div>
+                <p>
+                    Subscribe to our newsletter by entering your email address:  <input type="email" id="email" />
+                    <button onclick="thanks()">
+                        <b>Submit</b>
+                    </button>
+                </p>
+            </div>
+
+            <div>
+                <button class="footerbutton" onclick="websitevisit()">
+                    <b>GitHub page</b>
+                </button>
+
+            </div>
+        </div>
+        <p style="text-align: center; margin-top: 10px;">&copy; 2024 Hacking Attacks Overview</p>
+
     </footer>
 </body>
 </html>
